@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=scr, initial-scale=1.0">
     <title>Document</title>
     <script src="Java_Script_File.js"></script>
+
+    function setNewImage() {
+        document.getElementById(IMG_1080).src="family.jpg";
+        }
+        function setOldImage() {
+        //alert();
+        }
 </head>
 <body>
+    <br>
+    <img onmouseover="setNewImage()" onmouseout="setOldImage" src="IMG_1080.jpeg" width="50%" height="50%" alt="">
 
 </body>
 </html>
