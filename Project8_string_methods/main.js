@@ -11,3 +11,27 @@ function slice_Method() {
     var Section = Sentence.slice(26,50);
     document.getElementById("Slice").innerHTML = Section;
 }
+
+let greeting = 'this will change the sentence to all upper case';
+let greeting = greeting.toUpperCase();
+document.write(text);
+
+let text = "Mr. Blue has a blue house";
+let position = text.search("Blue");
+document.write(text)
+
+function string_Method() {
+    var x =182;
+    document.getElementById("Numbers_to_string").innerHTML = x.toString();
+}
+
+function precision_Method() {
+    var x = 12934.98769876;
+    document.getElementById("Precision").innerHTML = x.toPrecision(10);
+}
+
+let num = 5.56789;
+let n = num.toFixed();
+
+let text = "Hello World!";
+let result = text.valueOf();
