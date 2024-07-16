@@ -8,7 +8,7 @@ Function Call_Loop() {
     document.getElementById("Loop").innerHTML = Digit;
 }
 
-var Instruments = [ "guitar", "Drums", "Pianl", "Bass", "Violin", "Trumpet", "Flute", "Chelo"]
+var Instruments = [ "guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute", "Chelo"]
 var Content = "";
 var Y;
 function for_Loop(){
@@ -16,4 +16,13 @@ function for_Loop(){
         Content += Instruments [Y] + "<br>";
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
+}
+
+function array_Function() {
+    var array_Pic = [];
+    array_Pic[0] = "sleeping";
+    array_Pic[1] = " playing";
+    array_Pic[2] = " eating";
+    array_Pic[3] = " purring";
+    doccument.getElementById("Array").innerHTML = "In this picture, the array is " + array_Pic[3] + ".";
 }
